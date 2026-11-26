@@ -1,0 +1,7 @@
+Score,Count,Percent,Recorded evidence
+Null,2433,51.2,Insufficient information
+0,1810,38.1,Delegation of the answer or full solution
+1,341,7.2,"Specific concept, step, or hint request"
+2,154,3.2,Own operation or identifiable attempt
+3,18,0.4,Connected reasoning or error diagnosis
+Total,4756,100.0,

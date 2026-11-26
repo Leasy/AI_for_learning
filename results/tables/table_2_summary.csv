@@ -1,0 +1,12 @@
+Variable,All mean,All SD,Base mean,Tutor mean
+Unassisted exam score,0.290,0.254,0.283,0.297
+Prior GPA,0.812,0.109,0.817,0.807
+Task difficulty,0.707,0.130,0.706,0.709
+Understanding share,0.156,0.331,0.100,0.212
+Net understanding,-0.480,0.437,-0.625,-0.337
+Reasoning coverage,0.037,0.120,0.020,0.054
+Semantic score,0.053,0.106,0.033,0.074
+Problems with a student message,4.09,1.12,4.23,3.95
+Student-sessions,1163,,579,584
+Students,468,,219,249
+Classrooms,27,,13,14

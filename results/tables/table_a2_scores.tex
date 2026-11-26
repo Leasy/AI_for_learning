@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Distribution of First-Message Scores}
+\label{tab:llm-distribution}
+\begin{tabular}{lrrl}
+\toprule
+Score & Count & Percent & Recorded evidence \\
+\midrule
+Null & 2,433 & 51.2 & Insufficient information \\
+0 & 1,810 & 38.1 & Delegation of the answer or full solution \\
+1 & 341 & 7.2 & Specific concept, step, or hint request \\
+2 & 154 & 3.2 & Own operation or identifiable attempt \\
+3 & 18 & 0.4 & Connected reasoning or error diagnosis \\
+\midrule
+Total & 4,756 & 100.0 &  \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} The counts cover the first recorded student message for each of the 4,756 student-problem records in the estimation sample. Each unique input receives its primary score wherever it appears in the data. A null score indicates insufficient evidence to assess effort; it contributes zero to the numerator of $E^{L}$, and its problem remains in the session denominator.
+\end{minipage}
+\endgroup
+\end{table}

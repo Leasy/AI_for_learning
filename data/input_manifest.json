@@ -1,0 +1,14 @@
+{
+  "raw_files": {
+    "data/raw/main_regressions/final_data.csv": "cc26599aa61c77d0241fd8d48a2eb4912dfb3d5195b10e619666f3001b459ca7",
+    "data/raw/main_regressions/problem_part2.csv": "e778fd962b53d31271fd7d056ad34e5ec959fd58ab0b582aa9d3ddd1d3cd9fdb",
+    "data/raw/main_regressions/problem_part3.csv": "5be7f6cf332dbb852d48f6f21e8103b4ec8be6e20592d4dde236c3372c49f6d1",
+    "data/raw/main_regressions/problem_mapping.csv": "fcb6a87ba077e6d75119b28d66556c1151f75ff4b59e97b55b687e00f9e9667f",
+    "data/raw/text_analysis/data/raw/question_list.csv": "3d2f57eb764301182346e9212bf928741639686a895e7e7bba78c9feb547aef2",
+    "data/raw/text_analysis/data/raw/valid_student_data_w_time_stamp.csv": "47c0085e66d17581752f0d215fcec786e2c42c4fe668f1152083d0a4b532dc4b"
+  },
+  "dialogue_rules_sha256": "e090095b496db9f5e5c62e07a84e6ffeb73eb88a4a2c23b9cc0e390d9457f179",
+  "llm_manifest_sha256": "cc1d8b405b563b151baf334de165e5a5761003054441922930b15250573303a3",
+  "llm_freeze_sha256": "650522ba42014a01b6cf8964946416f1144c375a2f014be5d21daaaaebaab9df",
+  "raw_data_origin": "Released student records, practice and test scores, question mapping, and AI conversation logs."
+}

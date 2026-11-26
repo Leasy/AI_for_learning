@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Safeguards, Student Dialogue, and the Unassisted Exam Score}
+\label{tab:main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{3}{c}{Rule-based measures} & LLM-scored \\
+\cmidrule(lr){2-4}\cmidrule(l){5-5}
+ & Understanding & Net & Reasoning & Semantic \\
+ & share, $E^{U}$ & understanding, $E^{N}$ & coverage, $E^{R}$ & score, $E^{L}$ \\
+ & (1) & (2) & (3) & (4) \\
+\midrule
+@@ROWS@@
+\bottomrule
+\end{tabular}}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} Each column uses a different effort proxy; all columns use the same estimation sample. The proxy regression includes a constant, the Tutor indicator, task difficulty, and prior GPA. The score regression adds grade, session, teacher, and exam-grader indicators. Standard errors clustered by classroom are in parentheses and 95 percent confidence intervals in brackets. In panel A, inference uses CR2 standard errors with Satterthwaite degrees of freedom (@@THETA_DF@@). In panels B and C, inference for $\rho$, $\rho\theta$, and $\gamma$ uses the joint classroom CR1 covariance of the two reduced forms, the delta method, and a $t(@@CLUSTER_DF@@)$ reference distribution; inference for $\pi_{YT}$ uses classroom CR1 standard errors. Fieller sets invert tests of $\pi_{YG}-r\pi_{EG}=0$. The first-stage $F$-statistic tests $\pi_{EG}=0$. The component through the proxy and the residual sum to the total. The last row of panel C reports the share of the reduced-form GPA coefficient that would have to operate outside the proxy for the residual to equal zero (equation~\ref{eq:breakdown}). The exam score and the effort proxies are on different scales, so the returns in panel B are not comparable across columns.
+\end{minipage}
+\endgroup
+\end{table}

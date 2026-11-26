@@ -1,0 +1,389 @@
+{
+  "methods": [
+    "E_baseline",
+    "E_learning_observed",
+    "E_net_observed",
+    "E_reasoning_observed"
+  ],
+  "controls": [
+    "T",
+    "D",
+    "G",
+    "grade10",
+    "grade11",
+    "session_id2",
+    "session_id3",
+    "session_id4",
+    "teacher_idteacher_10",
+    "teacher_idteacher_12",
+    "teacher_idteacher_13",
+    "teacher_idteacher_14",
+    "teacher_idteacher_15",
+    "teacher_idteacher_16",
+    "teacher_idteacher_17",
+    "teacher_idteacher_18",
+    "teacher_idteacher_19",
+    "teacher_idteacher_2",
+    "teacher_idteacher_4",
+    "teacher_idteacher_5",
+    "teacher_idteacher_6",
+    "teacher_idteacher_7",
+    "teacher_idteacher_8",
+    "teacher_idteacher_9",
+    "grader_id1&2",
+    "grader_id2",
+    "grader_id3",
+    "grader_id4",
+    "grader_id5",
+    "grader_id6",
+    "grader_id7",
+    "grader_id8",
+    "grader_id9&10"
+  ],
+  "sample_flow": [
+    {
+      "stage": "released_student_sessions",
+      "sessions": 3255,
+      "students": 943,
+      "classrooms": 50,
+      "Base_sessions": 986,
+      "Tutor_sessions": 1099
+    },
+    {
+      "stage": "nonhonors",
+      "sessions": 2899,
+      "students": 839,
+      "classrooms": 44,
+      "Base_sessions": 838,
+      "Tutor_sessions": 985
+    },
+    {
+      "stage": "nonhonors_AI",
+      "sessions": 1823,
+      "students": 519,
+      "classrooms": 27,
+      "Base_sessions": 838,
+      "Tutor_sessions": 985
+    },
+    {
+      "stage": "observed_user_chat",
+      "sessions": 1735,
+      "students": 518,
+      "classrooms": 27,
+      "Base_sessions": 795,
+      "Tutor_sessions": 940
+    },
+    {
+      "stage": "common_complete_sessions",
+      "sessions": 1701,
+      "students": 508,
+      "classrooms": 27,
+      "Base_sessions": 784,
+      "Tutor_sessions": 917
+    },
+    {
+      "stage": "baseline_classifiable_sample",
+      "sessions": 1163,
+      "students": 468,
+      "classrooms": 27,
+      "Base_sessions": 579,
+      "Tutor_sessions": 584
+    }
+  ],
+  "category_coding": {
+    "grade": {
+      "reference": "9",
+      "levels": [
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    "session_id": {
+      "reference": "1",
+      "levels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "teacher_id": {
+      "reference": "teacher_1",
+      "levels": [
+        "teacher_1",
+        "teacher_10",
+        "teacher_12",
+        "teacher_13",
+        "teacher_14",
+        "teacher_15",
+        "teacher_16",
+        "teacher_17",
+        "teacher_18",
+        "teacher_19",
+        "teacher_2",
+        "teacher_4",
+        "teacher_5",
+        "teacher_6",
+        "teacher_7",
+        "teacher_8",
+        "teacher_9"
+      ]
+    },
+    "grader_id": {
+      "reference": "1",
+      "levels": [
+        "1",
+        "1&2",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9&10"
+      ]
+    }
+  },
+  "sessions": 1163,
+  "students": 468,
+  "classrooms": 27,
+  "raw_input_sha256": {
+    "data/raw/main_regressions/final_data.csv": "cc26599aa61c77d0241fd8d48a2eb4912dfb3d5195b10e619666f3001b459ca7",
+    "data/raw/main_regressions/problem_part2.csv": "e778fd962b53d31271fd7d056ad34e5ec959fd58ab0b582aa9d3ddd1d3cd9fdb",
+    "data/raw/main_regressions/problem_part3.csv": "5be7f6cf332dbb852d48f6f21e8103b4ec8be6e20592d4dde236c3372c49f6d1",
+    "data/raw/main_regressions/problem_mapping.csv": "fcb6a87ba077e6d75119b28d66556c1151f75ff4b59e97b55b687e00f9e9667f",
+    "data/raw/text_analysis/data/raw/question_list.csv": "3d2f57eb764301182346e9212bf928741639686a895e7e7bba78c9feb547aef2",
+    "data/raw/text_analysis/data/raw/valid_student_data_w_time_stamp.csv": "47c0085e66d17581752f0d215fcec786e2c42c4fe668f1152083d0a4b532dc4b"
+  },
+  "dialogue_rules_sha256": "e090095b496db9f5e5c62e07a84e6ffeb73eb88a4a2c23b9cc0e390d9457f179",
+  "session_score_reconciliation": {
+    "practice": {
+      "sessions_compared": 3255,
+      "max_absolute_difference": 0.0
+    },
+    "test": {
+      "sessions_compared": 3255,
+      "max_absolute_difference": 1.1102230246251565e-16
+    }
+  },
+  "raw_log_records": 64486,
+  "user_messages": 28666,
+  "all_message_labels": {
+    "ambiguous": 24457,
+    "U": 350,
+    "A": 3859
+  },
+  "common_observed_problems": 6635,
+  "common_zero_classified_sessions": 538,
+  "llm": {
+    "run_id": "pro_rescore_v2",
+    "model_requested": "gpt-6.1-sol",
+    "cli_version": "codex-cli 0.162.0-alpha.17.2",
+    "reasoning_effort": "low",
+    "temperature": null,
+    "seed": null,
+    "backend_snapshot": null,
+    "frozen_files_verified": 337,
+    "manifest_sha256": "cc1d8b405b563b151baf334de165e5a5761003054441922930b15250573303a3",
+    "freeze_sha256": "650522ba42014a01b6cf8964946416f1144c375a2f014be5d21daaaaebaab9df",
+    "full_input_sha256": "94bfc4ce2cc1e6417588c17a1e2d4d067e50beeb976aad30a1aee7885203d1fc",
+    "verification": {
+      "complete": true,
+      "primary_expected": 3825,
+      "primary_valid": 3825,
+      "repeat_expected": 100,
+      "repeat_valid": 100,
+      "primary_batches_expected": 77,
+      "primary_batches_valid": 77,
+      "repeat_batches_expected": 2,
+      "repeat_batches_valid": 2,
+      "attempt_count": 80,
+      "valid_attempts": 79,
+      "returned_models": [],
+      "returned_model_observed": false,
+      "manifest_sha256": "cc1d8b405b563b151baf334de165e5a5761003054441922930b15250573303a3",
+      "repeat_agreement": {
+        "learning_score": {
+          "n": 100,
+          "equal": 97,
+          "fraction": 0.97
+        },
+        "self_work_score": {
+          "n": 100,
+          "equal": 98,
+          "fraction": 0.98
+        },
+        "intent": {
+          "n": 100,
+          "equal": 96,
+          "fraction": 0.96
+        },
+        "confidence": {
+          "n": 100,
+          "equal": 95,
+          "fraction": 0.95
+        },
+        "all_rating_fields": {
+          "n": 100,
+          "equal": 91,
+          "fraction": 0.91
+        }
+      }
+    },
+    "expanded_learning_score_counts": {
+      "0": 1810,
+      "null": 2433,
+      "1": 341,
+      "2": 154,
+      "3": 18
+    },
+    "aggregation": "sum(non-null learning_score)/(3*all observed problems); null is no recorded positive evidence, not zero latent effort",
+    "scoring_calls_during_reproduction": 0
+  },
+  "measure_definitions": {
+    "E_baseline": "U_any / count(problems with any U or A); U has priority",
+    "E_learning_observed": "sum(non-null learning_score)/(3*observed problems)",
+    "E_net_observed": "(count(any U)-count(any A))/observed problems; mixed and unclassified contribute zero",
+    "E_reasoning_observed": "count(problems with any U matching frozen specific reasoning rules)/observed problems"
+  },
+  "reasoning_rule_ids": [
+    "articulated_reasoning",
+    "described_attempt",
+    "error_diagnosis",
+    "reasoning_check",
+    "requests_help_without_answer",
+    "specific_how_step",
+    "specific_step_explanation",
+    "specific_why_question"
+  ],
+  "data_definitions": {
+    "Y": "Released current-session normalized unassisted post-test mean (Part3Tot)",
+    "D": "Mean across all assigned questions of 1 minus the nonhonors no-AI control practice-score mean",
+    "G": "Released prior GPA fraction",
+    "T": "Tutor=1, Base=0",
+    "unit": "One observed student-session; all four methods use the identical baseline sample"
+  },
+  "clean_csv": "D:\\OneDrive\\CloudData\\Yale\\2026-fall\\Topics in Empirical Economics\\AI and grade\\experiment\\data\\clean\\analysis_sessions.csv",
+  "clean_csv_sha256": "6c724458c8f5f812d64ce29e06fc8aeea37c71e4e852f30964358d33acb44342",
+  "clean_csv_rows": 1163,
+  "clean_csv_columns": [
+    "student_id",
+    "class_id",
+    "session_id",
+    "grade",
+    "teacher_id",
+    "grader_id",
+    "Y",
+    "T",
+    "D",
+    "G",
+    "grade10",
+    "grade11",
+    "session_id2",
+    "session_id3",
+    "session_id4",
+    "teacher_idteacher_10",
+    "teacher_idteacher_12",
+    "teacher_idteacher_13",
+    "teacher_idteacher_14",
+    "teacher_idteacher_15",
+    "teacher_idteacher_16",
+    "teacher_idteacher_17",
+    "teacher_idteacher_18",
+    "teacher_idteacher_19",
+    "teacher_idteacher_2",
+    "teacher_idteacher_4",
+    "teacher_idteacher_5",
+    "teacher_idteacher_6",
+    "teacher_idteacher_7",
+    "teacher_idteacher_8",
+    "teacher_idteacher_9",
+    "grader_id1&2",
+    "grader_id2",
+    "grader_id3",
+    "grader_id4",
+    "grader_id5",
+    "grader_id6",
+    "grader_id7",
+    "grader_id8",
+    "grader_id9&10",
+    "E_baseline",
+    "E_learning_observed",
+    "E_net_observed",
+    "E_reasoning_observed",
+    "O_count",
+    "U_count",
+    "A_any_count",
+    "R_count",
+    "classified_count"
+  ],
+  "data_checks": {
+    "passed": true,
+    "sessions": 1163,
+    "students": 468,
+    "classrooms": 27,
+    "regression_design_columns": 34,
+    "regression_design_rank": 34,
+    "control_columns": [
+      "T",
+      "D",
+      "G",
+      "grade10",
+      "grade11",
+      "session_id2",
+      "session_id3",
+      "session_id4",
+      "teacher_idteacher_10",
+      "teacher_idteacher_12",
+      "teacher_idteacher_13",
+      "teacher_idteacher_14",
+      "teacher_idteacher_15",
+      "teacher_idteacher_16",
+      "teacher_idteacher_17",
+      "teacher_idteacher_18",
+      "teacher_idteacher_19",
+      "teacher_idteacher_2",
+      "teacher_idteacher_4",
+      "teacher_idteacher_5",
+      "teacher_idteacher_6",
+      "teacher_idteacher_7",
+      "teacher_idteacher_8",
+      "teacher_idteacher_9",
+      "grader_id1&2",
+      "grader_id2",
+      "grader_id3",
+      "grader_id4",
+      "grader_id5",
+      "grader_id6",
+      "grader_id7",
+      "grader_id8",
+      "grader_id9&10"
+    ],
+    "checks": [
+      "released raw input hashes and unchanged bilingual rules",
+      "raw score reconciliation and common-sample reconstruction",
+      "units, classroom assignment, ranges and count-based definitions",
+      "complete standalone regression columns and full design rank",
+      "saved LLM artifact hashes, raw responses, evidence and independent aggregation"
+    ],
+    "llm": {
+      "frozen_artifacts_verified": 337,
+      "original_items": 4756,
+      "unique_primary_judgments": 3825,
+      "primary_batches": 77,
+      "all_session_aggregates_match": true
+    },
+    "statistical_estimation_performed": false,
+    "model_calls": 0
+  },
+  "python_environment": {
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\37767\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  },
+  "workflow": "Python data preparation -> analysis CSV -> R estimation"
+}

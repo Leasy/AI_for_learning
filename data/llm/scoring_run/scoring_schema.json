@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Blinded first-turn semantic effort evidence, v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["item_id", "learning_score", "self_work_score", "intent", "evidence_quote", "reason", "confidence", "after_assistant"],
+  "properties": {
+    "item_id": {"type": "string", "pattern": "^[0-9a-f]{20}$"},
+    "learning_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 3},
+    "self_work_score": {"type": "integer", "minimum": 0, "maximum": 3},
+    "intent": {"enum": ["answer_delegation", "concept_or_step_help", "own_attempt", "ambiguous", "off_topic"]},
+    "evidence_quote": {"type": "string", "maxLength": 160},
+    "reason": {"type": "string"},
+    "confidence": {"enum": ["high", "medium", "low"]},
+    "after_assistant": {"type": "boolean"}
+  }
+}

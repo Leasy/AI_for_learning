@@ -1,0 +1,102 @@
+statistic,group,value,unit
+estimation_sample_sessions,Base,579.0,student-sessions
+estimation_sample_students,Base,219.0,students
+estimation_sample_classrooms,Base,13.0,classrooms
+estimation_sample_retention,Base,69.09307875894989,percent of non-honors AI sessions
+unassisted_exam_mean,Base,28.30082997505277,percent of maximum score
+observed_problems_mean,Base,4.231433506044905,problems per student-session
+understanding_share_mean,Base,9.962579159470351,"percent of classifiable problems, equal session weights"
+estimation_sample_sessions,Tutor,584.0,student-sessions
+estimation_sample_students,Tutor,249.0,students
+estimation_sample_classrooms,Tutor,14.0,classrooms
+estimation_sample_retention,Tutor,59.28934010152284,percent of non-honors AI sessions
+unassisted_exam_mean,Tutor,29.689606436181776,percent of maximum score
+observed_problems_mean,Tutor,3.9486301369863015,problems per student-session
+understanding_share_mean,Tutor,21.17009132420091,"percent of classifiable problems, equal session weights"
+score_standard_deviation,Unassisted exam,0.25426298568121475,fraction of maximum score
+gpa_standard_deviation,Prior GPA,0.10880285151246867,fraction of maximum GPA
+score_change_per_0.1_gpa,Unassisted exam,11.867092846180201,exam percentage points
+adjusted_tutor_minus_base,Unassisted exam,1.20528571864777,exam percentage points
+adjusted_tutor_minus_base_se,Unassisted exam,1.87316470116375,exam percentage points
+adjusted_tutor_minus_base_p,Unassisted exam,0.525568136502676,two-sided p-value
+raw_tutor_minus_base,E_baseline,11.207512164730561,percentage points
+tutor_to_base_raw_mean_ratio,E_baseline,2.124960914772435,ratio of student-session means
+tutor_to_base_raw_mean_ratio,E_learning_observed,2.257339412686297,ratio of student-session means
+adjusted_tutor_minus_base,E_baseline,11.7914003433518,percentage points
+adjusted_tutor_minus_base_se,E_baseline,3.1766415812044797,percentage points
+proxy_change_per_0.1_gpa,E_baseline,5.691476863704709,percentage points
+return_per_proxy_sd,E_baseline,2.7123209108288107,exam standard deviations
+effort_contribution,E_baseline,24.5858229791613,exam percentage points
+effort_contribution_se,E_baseline,6.81627907045225,exam percentage points
+effort_contribution_in_exam_sd,E_baseline,0.9669446346384869,exam standard deviations
+effort_contribution_relative_to_base_mean,E_baseline,0.8687315177976669,fraction of Base mean score
+effect_beyond_effort,E_baseline,-23.380537260513602,exam percentage points
+effect_beyond_effort_se,E_baseline,6.812938485740549,exam percentage points
+effect_beyond_effort_ci95_low,E_baseline,-37.3847328816163,exam percentage points
+effect_beyond_effort_ci95_high,E_baseline,-9.376341639410871,exam percentage points
+effect_beyond_effort_p,E_baseline,0.00201631016423799,two-sided p-value
+direct_gpa_share_at_zero_residual,E_baseline,95.09763931974392,percent of reduced-form GPA coefficient
+return_at_zero_residual,E_baseline,0.10221735193032704,fraction of maximum exam score per proxy unit
+adjusted_tutor_minus_base,E_learning_observed,0.0430415426369187,proxy units
+adjusted_tutor_minus_base_se,E_learning_observed,0.0119227855483268,proxy units
+proxy_change_per_0.1_gpa,E_learning_observed,0.0181395887329036,proxy units
+return_per_proxy_sd,E_learning_observed,2.7204971673659943,exam standard deviations
+effort_contribution,E_learning_observed,28.158189815441197,exam percentage points
+effort_contribution_se,E_learning_observed,9.104427088712,exam percentage points
+effort_contribution_in_exam_sd,E_learning_observed,1.1074435289902897,exam standard deviations
+effort_contribution_relative_to_base_mean,E_learning_observed,0.9949598594904351,fraction of Base mean score
+effect_beyond_effort,E_learning_observed,-26.9529040967934,exam percentage points
+effect_beyond_effort_se,E_learning_observed,9.16322457285987,exam percentage points
+effect_beyond_effort_ci95_low,E_learning_observed,-45.7881819592026,exam percentage points
+effect_beyond_effort_ci95_high,E_learning_observed,-8.11762623438419,exam percentage points
+effect_beyond_effort_p,E_learning_observed,0.0067816433691375,two-sided p-value
+direct_gpa_share_at_zero_residual,E_learning_observed,95.71959090215798,percent of reduced-form GPA coefficient
+return_at_zero_residual,E_learning_observed,0.2800284666409566,fraction of maximum exam score per proxy unit
+adjusted_tutor_minus_base,E_net_observed,0.298265486472943,proxy units
+adjusted_tutor_minus_base_se,E_net_observed,0.0396411018162089,proxy units
+proxy_change_per_0.1_gpa,E_net_observed,0.098897569478508,proxy units
+return_per_proxy_sd,E_net_observed,2.0606122668215696,exam standard deviations
+effort_contribution,E_net_observed,35.7900021148114,exam percentage points
+effort_contribution_se,E_net_observed,7.26048007930358,exam percentage points
+effort_contribution_in_exam_sd,E_net_observed,1.4075978074010167,exam standard deviations
+effort_contribution_relative_to_base_mean,E_net_observed,1.2646272970213364,fraction of Base mean score
+effect_beyond_effort,E_net_observed,-34.5847163961637,exam percentage points
+effect_beyond_effort_se,E_net_observed,7.472807150054931,exam percentage points
+effect_beyond_effort_ci95_low,E_net_observed,-49.945291482402496,exam percentage points
+effect_beyond_effort_ci95_high,E_net_observed,-19.2241413099248,exam percentage points
+effect_beyond_effort_p,E_net_observed,8.97197066422884e-05,two-sided p-value
+direct_gpa_share_at_zero_residual,E_net_observed,96.63233962719166,percent of reduced-form GPA coefficient
+return_at_zero_residual,E_net_observed,0.040409828602717225,fraction of maximum exam score per proxy unit
+adjusted_tutor_minus_base,E_reasoning_observed,3.51011564524442,percentage points
+adjusted_tutor_minus_base_se,E_reasoning_observed,0.8299687497769581,percentage points
+proxy_change_per_0.1_gpa,E_reasoning_observed,0.64315878525082,percentage points
+return_per_proxy_sd,E_reasoning_observed,8.68935406350999,exam standard deviations
+effort_contribution,E_reasoning_observed,64.7660721087725,exam percentage points
+effort_contribution_se,E_reasoning_observed,32.3953793647583,exam percentage points
+effort_contribution_in_exam_sd,E_reasoning_observed,2.547208038765569,exam standard deviations
+effort_contribution_relative_to_base_mean,E_reasoning_observed,2.2884866686193974,fraction of Base mean score
+effect_beyond_effort,E_reasoning_observed,-63.560786390124704,exam percentage points
+effect_beyond_effort_se,E_reasoning_observed,32.4061327336483,exam percentage points
+effect_beyond_effort_ci95_low,E_reasoning_observed,-130.172546216707,exam percentage points
+effect_beyond_effort_ci95_high,E_reasoning_observed,3.05097343645779,exam percentage points
+effect_beyond_effort_p,E_reasoning_observed,0.0606261699436217,two-sided p-value
+direct_gpa_share_at_zero_residual,E_reasoning_observed,98.13901680400885,percent of reduced-form GPA coefficient
+return_at_zero_residual,E_reasoning_observed,0.34337493133045827,fraction of maximum exam score per proxy unit
+outcome_indicator_count,Unassisted exam,30.0,indicators
+design_rank,Effort proxy,4.0,parameters
+design_rank,Unassisted exam,34.0,parameters
+cr1_finite_sample_multiplier,Effort proxy,1.04114953209,multiplier
+cr1_finite_sample_multiplier,Unassisted exam,1.06881515296041,multiplier
+cr1_reference_df,Unassisted exam,26.0,degrees of freedom
+theta_satterthwaite_df,Effort proxy,23.1891261654243,degrees of freedom
+first_message_records,Semantic scoring,4756.0,student-problem records
+uninformative_first_messages,Semantic scoring,51.15643397813289,percent
+unique_primary_inputs,Semantic scoring,3825.0,inputs
+primary_batches,Semantic scoring,77.0,batches
+batch_capacity,Semantic scoring,50.0,inputs per batch
+selected_messages_after_assistant_in_file_order,Semantic scoring,0.0,records
+repeat_batches,Semantic scoring,2.0,batches
+repeat_learning_scores,Semantic scoring,100.0,paired ratings
+repeat_learning_scores_agree,Semantic scoring,97.0,paired ratings
+repeat_learning_score_agreement,Semantic scoring,97.0,percent
+invalid_scoring_attempts,Semantic scoring,1.0,attempts

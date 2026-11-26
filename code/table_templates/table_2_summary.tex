@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Summary Statistics}
+\label{tab:summary}
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{2}{c}{All} & Base & Tutor \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}
+ & Mean & SD & Mean & Mean \\
+\midrule
+@@ROWS@@
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} The sample is the estimation sample defined in \autoref{tab:sample}; each student-session receives equal weight. Exam scores and prior GPA are fractions of their maximum values. Task difficulty is one minus the mean normalized practice score of non-honors control-arm students on the assigned problems. The effort measures are defined in equations \eqref{eq:baseline-measure}--\eqref{eq:llm-measure}.
+\end{minipage}
+\endgroup
+\end{table}

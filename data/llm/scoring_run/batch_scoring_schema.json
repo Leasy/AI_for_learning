@@ -1,0 +1,71 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "scores": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "after_assistant": {
+            "type": "boolean"
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "evidence_quote": {
+            "maxLength": 160,
+            "type": "string"
+          },
+          "intent": {
+            "enum": [
+              "answer_delegation",
+              "concept_or_step_help",
+              "own_attempt",
+              "ambiguous",
+              "off_topic"
+            ]
+          },
+          "item_id": {
+            "pattern": "^[0-9a-f]{20}$",
+            "type": "string"
+          },
+          "learning_score": {
+            "maximum": 3,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "self_work_score": {
+            "maximum": 3,
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "item_id",
+          "learning_score",
+          "self_work_score",
+          "intent",
+          "evidence_quote",
+          "reason",
+          "confidence",
+          "after_assistant"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "scores"
+  ],
+  "type": "object"
+}

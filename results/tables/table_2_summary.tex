@@ -1,0 +1,38 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Summary Statistics}
+\label{tab:summary}
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{2}{c}{All} & Base & Tutor \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-4}\cmidrule(lr){5-5}
+ & Mean & SD & Mean & Mean \\
+\midrule
+Unassisted exam score, $Y$ & 0.290 & 0.254 & 0.283 & 0.297 \\
+Prior GPA, $G$ & 0.812 & 0.109 & 0.817 & 0.807 \\
+Task difficulty, $D$ & 0.707 & 0.130 & 0.706 & 0.709 \\
+\addlinespace
+\multicolumn{5}{l}{\textit{Effort measures}} \\
+\quad Understanding share, $E^{U}$ & 0.156 & 0.331 & 0.100 & 0.212 \\
+\quad Net understanding, $E^{N}$ & $-0.480$ & 0.437 & $-0.625$ & $-0.337$ \\
+\quad Reasoning coverage, $E^{R}$ & 0.037 & 0.120 & 0.020 & 0.054 \\
+\quad Semantic score, $E^{L}$ & 0.053 & 0.106 & 0.033 & 0.074 \\
+\addlinespace
+Problems with a student message, $O$ & 4.09 & 1.12 & 4.23 & 3.95 \\
+\midrule
+Student-sessions & 1,163 &  & 579 & 584 \\
+Students & 468 &  & 219 & 249 \\
+Classrooms & 27 &  & 13 & 14 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} The sample is the estimation sample defined in \autoref{tab:sample}; each student-session receives equal weight. Exam scores and prior GPA are fractions of their maximum values. Task difficulty is one minus the mean normalized practice score of non-honors control-arm students on the assigned problems. The effort measures are defined in equations \eqref{eq:baseline-measure}--\eqref{eq:llm-measure}.
+\end{minipage}
+\endgroup
+\end{table}

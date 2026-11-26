@@ -1,0 +1,6 @@
+Score,Evidence in the student's message
+Null,"Uninformative or off-topic text, the copied problem only, a generic help request, or an unsupported final guess without an identifiable operation."
+0,"A clear request to supply the answer or outsource the complete solution, without a specific learning request or a mathematical step of the student's own."
+1,"A request about a specific mathematical concept, step, or hint, including an explicit request to withhold the answer."
+2,"An identifiable operation, relationship, strategy, or intermediate step of the student's own, or a request to check a specific step or misconception."
+3,"Connected reasoning with linked steps, a reasoned justification, or an error diagnosis that goes beyond copying the question."

@@ -1,0 +1,55 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Safeguards, Student Dialogue, and the Unassisted Exam Score}
+\label{tab:main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+ & \multicolumn{3}{c}{Rule-based measures} & LLM-scored \\
+\cmidrule(lr){2-4}\cmidrule(l){5-5}
+ & Understanding & Net & Reasoning & Semantic \\
+ & share, $E^{U}$ & understanding, $E^{N}$ & coverage, $E^{R}$ & score, $E^{L}$ \\
+ & (1) & (2) & (3) & (4) \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Panel A. Effect of GPT Tutor on the effort proxy}} \\
+\addlinespace[2pt]
+Tutor, $\hat\theta$ & 0.118 & 0.298 & 0.035 & 0.043 \\
+ & (0.032) & (0.040) & (0.008) & (0.012) \\
+ & [0.052, 0.184] & [0.216, 0.380] & [0.018, 0.052] & [0.018, 0.068] \\
+Base-arm mean & 0.100 & $-0.625$ & 0.020 & 0.033 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textit{Panel B. Prior GPA as the excluded instrument}} \\
+\addlinespace[2pt]
+GPA in proxy equation, $\hat\pi_{EG}$ & 0.569 & 0.989 & 0.064 & 0.181 \\
+ & (0.109) & (0.135) & (0.028) & (0.037) \\
+GPA in score equation, $\hat\pi_{YG}$ & \multicolumn{4}{c}{1.187 (0.107)} \\
+Return, $\hat\rho=\hat\pi_{YG}/\hat\pi_{EG}$ & 2.09 & 1.20 & 18.45 & 6.54 \\
+ & (0.42) & (0.20) & (8.11) & (1.30) \\
+\quad Fieller 95 percent set & [1.45, 3.44] & [0.87, 1.74] & [9.42, 156.17] & [4.57, 10.93] \\
+First-stage $F$-statistic & 27.1 & 53.5 & 5.4 & 24.6 \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textit{Panel C. Decomposition of the Tutor--Base exam-score difference}} \\
+\addlinespace[2pt]
+Total, $\hat\pi_{YT}$ & \multicolumn{4}{c}{0.012 (0.019)} \\
+Through the proxy, $\hat\rho\hat\theta$ & 0.246 & 0.358 & 0.648 & 0.282 \\
+ & (0.068) & (0.073) & (0.324) & (0.091) \\
+Residual, $\hat\gamma$ & $-0.234$ & $-0.346$ & $-0.636$ & $-0.270$ \\
+ & (0.068) & (0.075) & (0.324) & (0.092) \\
+ & [$-0.374$, $-0.094$] & [$-0.499$, $-0.192$] & [$-1.302$, 0.031] & [$-0.458$, $-0.081$] \\
+Direct GPA share for $\gamma=0$ & 0.951 & 0.966 & 0.981 & 0.957 \\
+\midrule
+Student-sessions & 1,163 & 1,163 & 1,163 & 1,163 \\
+Classrooms & 27 & 27 & 27 & 27 \\
+\bottomrule
+\end{tabular}}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} Each column uses a different effort proxy; all columns use the same estimation sample. The proxy regression includes a constant, the Tutor indicator, task difficulty, and prior GPA. The score regression adds grade, session, teacher, and exam-grader indicators. Standard errors clustered by classroom are in parentheses and 95 percent confidence intervals in brackets. In panel A, inference uses CR2 standard errors with Satterthwaite degrees of freedom (23.2). In panels B and C, inference for $\rho$, $\rho\theta$, and $\gamma$ uses the joint classroom CR1 covariance of the two reduced forms, the delta method, and a $t(26)$ reference distribution; inference for $\pi_{YT}$ uses classroom CR1 standard errors. Fieller sets invert tests of $\pi_{YG}-r\pi_{EG}=0$. The first-stage $F$-statistic tests $\pi_{EG}=0$. The component through the proxy and the residual sum to the total. The last row of panel C reports the share of the reduced-form GPA coefficient that would have to operate outside the proxy for the residual to equal zero (equation~\ref{eq:breakdown}). The exam score and the effort proxies are on different scales, so the returns in panel B are not comparable across columns.
+\end{minipage}
+\endgroup
+\end{table}

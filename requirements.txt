@@ -1,0 +1,4 @@
+# Minimum compatible versions; retain installed versions that satisfy these floors.
+# Install with: python -m pip install -r requirements.txt
+numpy>=1.24
+pandas>=1.5

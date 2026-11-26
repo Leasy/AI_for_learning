@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Construction of the Estimation Sample}
+\label{tab:sample}
+\begin{tabular}{lrrrrr}
+\toprule
+ & \multicolumn{3}{c}{Student-sessions} & & \\
+\cmidrule(lr){2-4}
+Stage & All arms & Base & Tutor & Students & Classrooms \\
+\midrule
+@@ROWS@@
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} Each row imposes the restriction in its label in addition to those in the rows above. ``All arms'' in the first two rows includes sessions in the no-AI control arm. The final restriction requires at least one practice problem whose student messages the baseline phrase rules can classify; it depends on behavior after random assignment. The estimation sample is common to all four effort measures.
+\end{minipage}
+\endgroup
+\end{table}

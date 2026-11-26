@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\caption{Semantic Scoring Rubric}
+\label{tab:llm-rubric}
+\begin{tabular}{p{0.08\linewidth}p{0.81\linewidth}}
+\toprule
+Score & Evidence in the student's message \\
+\midrule
+Null & Uninformative or off-topic text, the copied problem only, a generic help request, or an unsupported final guess without an identifiable operation. \\
+\addlinespace
+0 & A clear request to supply the answer or outsource the complete solution, without a specific learning request or a mathematical step of the student's own. \\
+\addlinespace
+1 & A request about a specific mathematical concept, step, or hint, including an explicit request to withhold the answer. \\
+\addlinespace
+2 & An identifiable operation, relationship, strategy, or intermediate step of the student's own, or a request to check a specific step or misconception. \\
+\addlinespace
+3 & Connected reasoning with linked steps, a reasoned justification, or an error diagnosis that goes beyond copying the question. \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} The rubric scores the evidence a student puts in writing. Time spent and underlying effort are unobserved, and the scores have not been validated against an independent measure of effort. Mathematical correctness is not required. A null score contributes zero to the numerator of $E^{L}$, and its problem remains in the denominator.
+\end{minipage}
+\endgroup
+\end{table}

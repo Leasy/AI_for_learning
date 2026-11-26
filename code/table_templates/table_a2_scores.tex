@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\begingroup
+\setstretch{1}
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Distribution of First-Message Scores}
+\label{tab:llm-distribution}
+\begin{tabular}{lrrl}
+\toprule
+Score & Count & Percent & Recorded evidence \\
+\midrule
+@@ROWS@@
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\textit{Notes:} The counts cover the first recorded student message for each of the @@N_RECORDS@@ student-problem records in the estimation sample. Each unique input receives its primary score wherever it appears in the data. A null score indicates insufficient evidence to assess effort; it contributes zero to the numerator of $E^{L}$, and its problem remains in the session denominator.
+\end{minipage}
+\endgroup
+\end{table}
